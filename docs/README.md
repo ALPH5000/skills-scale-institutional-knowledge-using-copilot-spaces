@@ -29,4 +29,5 @@ Each document below covers a specific phase or aspect of OctoAcme's project mana
 | [Risk Management & Communication](octoacme-risks-and-communication.md) | Risk register, escalation paths, weekly status templates, and stakeholder communication cadences |
 | [Release & Deployment Guide](octoacme-release-and-deployment.md) | Release checklist, staging verification, rollback plans, and post-deploy practices |
 | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Sprint retrospectives, blameless post-mortems, and tracking improvement action items |
-| [Roles and Personas](octoacme-roles-and-personas.md) | Definitions and responsibilities for PM, PdM, Developers, QA/Testing, and Stakeholders |
+| [Roles and Personas](octoacme-roles-and-personas.md) | Definitions and responsibilities for PM, PdM, Developers, QA Lead, UX/UI Designer, Release Manager, and Stakeholder Representative |
+| [RACI & Responsibility Matrix](octoacme-raci-and-responsibility-matrix.md) | Who owns what, RACI matrix, and lifecycle handoff checklists |

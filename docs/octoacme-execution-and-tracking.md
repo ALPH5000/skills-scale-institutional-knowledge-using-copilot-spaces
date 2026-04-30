@@ -8,8 +8,21 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Weekly delivery sync — show progress, updates, and flagged risks
 - Demo/Review at the end of each sprint or milestone
 
+## Project Board Columns
+
+| Column | Definition | Who moves items here |
+|---|---|---|
+| **Backlog** | Accepted but not yet scheduled | PdM / PM |
+| **Ready** | Refined, estimated, and ready to pull into a sprint | PM (sprint planning) |
+| **In Progress** | Actively being developed | Developer (self-assigned) |
+| **In Review** | PR open and awaiting code review | Developer (on PR open) |
+| **QA** | Code merged; awaiting QA/test sign-off | Developer (after PR merge) |
+| **Done** | Acceptance criteria verified and QA sign-off given | QA Lead |
+
+> Items move to **QA** only after the PR is merged and CI is green. The **QA Lead** is responsible for pulling items through the QA column and moving them to Done after verification. Defects found in QA re-open the original issue or create a new linked defect issue; the item stays in QA until resolved.
+
 ## Workflows
-- Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
+- Use the project board (e.g., GitHub Projects) with columns defined above
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
