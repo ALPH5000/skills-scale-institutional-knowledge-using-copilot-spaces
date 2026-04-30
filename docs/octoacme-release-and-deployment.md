@@ -8,6 +8,21 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Minor: incremental features and improvements
 - Major: significant functionality or breaking changes
 
+## Release Readiness Checklist
+
+Complete this checklist before the go/no-go decision. Ownership is noted for each item.
+
+| # | Item | Owner |
+|---|---|---|
+| 1 | All in-scope acceptance criteria verified and QA sign-off report produced | QA Lead |
+| 2 | All PRs merged and CI/CD pipeline green (tests, lint, security scans) | Developers |
+| 3 | Release notes drafted and reviewed | Release Manager + PM |
+| 4 | Rollback / mitigation plan documented and communicated to the team | Release Manager |
+| 5 | Smoke tests executed against staging environment | QA Lead + Release Manager |
+| 6 | Deployment window confirmed and stakeholders notified | PM + Release Manager |
+| 7 | Support team briefed on new features and known issues | PM |
+| 8 | Go/no-go decision recorded | PM (decision), Release Manager (execution) |
+
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
